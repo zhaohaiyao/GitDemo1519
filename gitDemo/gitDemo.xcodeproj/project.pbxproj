@@ -14,6 +14,7 @@
 		BC94722E1C80223E007C681E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC94722D1C80223E007C681E /* Assets.xcassets */; };
 		BC9472311C80223E007C681E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC94722F1C80223E007C681E /* LaunchScreen.storyboard */; };
 		BC94723D1C802708007C681E /* student.m in Sources */ = {isa = PBXBuildFile; fileRef = BC94723C1C802708007C681E /* student.m */; settings = {ASSET_TAGS = (); }; };
+		BC94723A1C8025B9007C681E /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9472391C8025B9007C681E /* person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BC9472321C80223E007C681E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC94723B1C802708007C681E /* student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 		BC94723C1C802708007C681E /* student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = student.m; sourceTree = "<group>"; };
+		BC9472381C8025B9007C681E /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		BC9472391C8025B9007C681E /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				BC9472241C80223E007C681E /* AppDelegate.h */,
 				BC9472251C80223E007C681E /* AppDelegate.m */,
+				BC9472381C8025B9007C681E /* person.h */,
+				BC9472391C8025B9007C681E /* person.m */,
 				BC9472271C80223E007C681E /* ViewController.h */,
 				BC9472281C80223E007C681E /* ViewController.m */,
 				BC94723B1C802708007C681E /* student.h */,
@@ -156,6 +161,7 @@
 			files = (
 				BC9472291C80223E007C681E /* ViewController.m in Sources */,
 				BC9472261C80223E007C681E /* AppDelegate.m in Sources */,
+				BC94723A1C8025B9007C681E /* person.m in Sources */,
 				BC9472231C80223E007C681E /* main.m in Sources */,
 				BC94723D1C802708007C681E /* student.m in Sources */,
 			);
